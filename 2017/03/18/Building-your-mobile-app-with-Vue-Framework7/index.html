@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="framework7,vue," />
 
 
 
@@ -87,12 +87,25 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Alick's Blog">
-<meta property="og:url" content="http://alickzhang.com/index.html">
+<meta name="description" content="InstallationInstall Vue1$ npm install vue-cli -g
+Start a project1234$ vue init webpack demo$ cd demo$ npm install$ npm run server
+Install Framework71$ npm install framework7 framework7-vue --save
+Proj">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Building your mobile app with Vue + Framework7">
+<meta property="og:url" content="http://alickzhang.com/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/index.html">
 <meta property="og:site_name" content="Alick's Blog">
+<meta property="og:description" content="InstallationInstall Vue1$ npm install vue-cli -g
+Start a project1234$ vue init webpack demo$ cd demo$ npm install$ npm run server
+Install Framework71$ npm install framework7 framework7-vue --save
+Proj">
+<meta property="og:updated_time" content="2017-04-28T03:24:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Alick's Blog">
+<meta name="twitter:title" content="Building your mobile app with Vue + Framework7">
+<meta name="twitter:description" content="InstallationInstall Vue1$ npm install vue-cli -g
+Start a project1234$ vue init webpack demo$ cd demo$ npm install$ npm run server
+Install Framework71$ npm install framework7 framework7-vue --save
+Proj">
 
 
 
@@ -120,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://alickzhang.com/"/>
+  <link rel="canonical" href="http://alickzhang.com/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/"/>
 
 
 
 
 
-  <title> Alick's Blog </title>
+  <title> Building your mobile app with Vue + Framework7 | Alick's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -151,9 +164,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -236,138 +247,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://alickzhang.com/2017/04/28/Building-your-app-with-React-Framework7/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Alick Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://res.cloudinary.com/alick/image/upload/v1487907760/sx_jbup7z.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Alick's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/04/28/Building-your-app-with-React-Framework7/" itemprop="url">
-                  Building your app with React + Framework7
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-28T13:11:12+10:00">
-                2017-04-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-React"><a href="#Install-React" class="headerlink" title="Install React"></a>Install React</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ npm install -g create-react-app</div><div class="line">$ create-react-app react<span class="_">-f</span>7</div><div class="line">$ <span class="built_in">cd</span> react<span class="_">-f</span>7</div><div class="line">$ npm start</div></pre></td></tr></table></figure>
-<h2 id="Install-Framework7"><a href="#Install-Framework7" class="headerlink" title="Install Framework7"></a>Install Framework7</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install framework7-react --save</div></pre></td></tr></table></figure>
-<h1 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h1><h2 id="Project-Structure"><a href="#Project-Structure" class="headerlink" title="Project Structure"></a>Project Structure</h2><ul>
-<li>src/views - folder with views</li>
-<li>src/components - folder with components</li>
-<li>src/css - put custom app CSS styles here. Don’t forget to import them in main.js</li>
-<li>src/common - folder with utility js file, such as request.js, config.js</li>
-<li>src/index.js - main app file where you include/import all required libs and init app</li>
-<li>src/routes.js - app routes</li>
-<li>src/App.js - main app component</li>
-</ul>
-<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span></div><div class="line"><span class="keyword">import</span> ReactDOM <span class="keyword">from</span> <span class="string">'react-dom'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'framework7/dist/css/framework7.ios.min.css'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'framework7/dist/css/framework7.ios.colors.min.css'</span></div><div class="line"></div><div class="line"><span class="keyword">import</span> &#123; App &#125; <span class="keyword">from</span> <span class="string">'./App'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'./css/App.css'</span></div><div class="line"></div><div class="line">ReactDOM.render(</div><div class="line">  &lt;App /&gt;,</div><div class="line">  document.getElementById('root')</div><div class="line">)</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
 
   
 
@@ -397,10 +279,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/" itemprop="url">
-                  Building your mobile app with Vue + Framework7
-                </a>
+                Building your mobile app with Vue + Framework7
               
             
           </h1>
@@ -451,8 +330,7 @@
       
 
       
-        
-          <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-Vue"><a href="#Install-Vue" class="headerlink" title="Install Vue"></a>Install Vue</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install vue-cli -g</div></pre></td></tr></table></figure>
+        <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-Vue"><a href="#Install-Vue" class="headerlink" title="Install Vue"></a>Install Vue</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install vue-cli -g</div></pre></td></tr></table></figure>
 <h2 id="Start-a-project"><a href="#Start-a-project" class="headerlink" title="Start a project"></a>Start a project</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ vue init webpack demo</div><div class="line">$ <span class="built_in">cd</span> demo</div><div class="line">$ npm install</div><div class="line">$ npm run server</div></pre></td></tr></table></figure>
 <h2 id="Install-Framework7"><a href="#Install-Framework7" class="headerlink" title="Install Framework7"></a>Install Framework7</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install framework7 framework7-vue --save</div></pre></td></tr></table></figure>
 <h2 id="Project-Structure"><a href="#Project-Structure" class="headerlink" title="Project Structure"></a>Project Structure</h2><ul>
@@ -464,171 +342,76 @@
 <li>src/routes.js - app routes</li>
 <li>src/app.vue - main app structure/component</li>
 </ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
+<a id="more"></a>
+<h1 id="Initialize-App"><a href="#Initialize-App" class="headerlink" title="Initialize App"></a>Initialize App</h1><h2 id="main-js"><a href="#main-js" class="headerlink" title="main.js"></a>main.js</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">'vue'</span></div><div class="line"><span class="keyword">import</span> Framework7 <span class="keyword">from</span> <span class="string">'framework7'</span></div><div class="line"><span class="keyword">import</span> Framework7Vue <span class="keyword">from</span> <span class="string">'framework7-vue'</span></div><div class="line"><span class="keyword">import</span> Framework7Theme <span class="keyword">from</span> <span class="string">'framework7/dist/css/framework7.ios.min.css'</span></div><div class="line"><span class="keyword">import</span> Framework7ThemeColors <span class="keyword">from</span> <span class="string">'framework7/dist/css/framework7.ios.colors.min.css'</span></div><div class="line"></div><div class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">'./App'</span></div><div class="line"><span class="keyword">import</span> Routes <span class="keyword">from</span> <span class="string">'./routes.js'</span></div><div class="line"></div><div class="line">Vue.config.productionTip = <span class="literal">false</span></div><div class="line"></div><div class="line">Vue.use(Framework7Vue)</div><div class="line"></div><div class="line"><span class="keyword">new</span> Vue(&#123;</div><div class="line">  <span class="attr">el</span>: <span class="string">'#app'</span>,</div><div class="line">  <span class="attr">template</span>: <span class="string">'&lt;App/&gt;'</span>,</div><div class="line">  <span class="attr">framework7</span>: &#123;</div><div class="line">    <span class="attr">root</span>: <span class="string">'#app'</span>,</div><div class="line">    <span class="attr">routes</span>: Routes</div><div class="line">  &#125;,</div><div class="line">  <span class="attr">components</span>: &#123; App &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<h2 id="App-vue"><a href="#App-vue" class="headerlink" title="App.vue"></a>App.vue</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&lt;template&gt;</div><div class="line">  &lt;!-- App --&gt;</div><div class="line">  &lt;div id=&quot;app&quot;&gt;</div><div class="line">    &lt;!-- Status bar overlay for full screen mode (Cordova or PhoneGap) --&gt;</div><div class="line">    &lt;f7-statusbar&gt;&lt;/f7-statusbar&gt;</div><div class="line">    &lt;!-- Views --&gt;</div><div class="line">    &lt;f7-views&gt;</div><div class="line">      &lt;!-- Your main view, should have &quot;main&quot; prop --&gt;</div><div class="line">      &lt;f7-view main&gt;</div><div class="line">        &lt;!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate props --&gt;</div><div class="line">        &lt;f7-pages navbar-fixed toolbar-fixed&gt;</div><div class="line">          &lt;!-- Initial Page --&gt;</div><div class="line">          &lt;f7-page&gt;</div><div class="line">            &lt;!-- Top Navbar--&gt;</div><div class="line">            &lt;f7-navbar title=&quot;Awesome App&quot;&gt;&lt;/f7-navbar&gt;</div><div class="line">            &lt;!-- Toolbar--&gt;</div><div class="line">            &lt;f7-toolbar&gt;</div><div class="line">              &lt;f7-link&gt;Link 1&lt;/f7-link&gt;</div><div class="line">              &lt;f7-link&gt;Link 2&lt;/f7-link&gt;</div><div class="line">            &lt;/f7-toolbar&gt;</div><div class="line">            &lt;!-- Page Content --&gt;</div><div class="line">            &lt;p&gt;Page content goes here&lt;/p&gt;</div><div class="line">            &lt;f7-link href=&quot;/about/&quot;&gt;About App&lt;/f7-link&gt;</div><div class="line">          &lt;/f7-page&gt;</div><div class="line">        &lt;/f7-pages&gt;</div><div class="line">      &lt;/f7-view&gt;</div><div class="line">    &lt;/f7-views&gt;</div><div class="line">  &lt;/div&gt;</div><div class="line">&lt;/template&gt;</div><div class="line"></div><div class="line">&lt;script&gt;</div><div class="line">export default &#123;&#125;</div><div class="line">&lt;/script&gt;</div></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://alickzhang.com/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Alick Zhang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://res.cloudinary.com/alick/image/upload/v1487907760/sx_jbup7z.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Alick's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/" itemprop="url">
-                  Building a blog with Github Pages & Hexo on MacOS
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-24T14:51:21+11:00">
-                2017-02-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/framework7/" rel="tag"># framework7</a>
           
-            
+            <a href="/tags/vue/" rel="tag"># vue</a>
           
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
         
-          <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-Homebrew"><a href="#Install-Homebrew" class="headerlink" title="Install Homebrew"></a>Install Homebrew</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ /usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
-<h2 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install node</div></pre></td></tr></table></figure>
-<h2 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install git</div></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div><div class="line">$ hexo init blog</div><div class="line">$ <span class="built_in">cd</span> blog &amp;&amp; npm install</div><div class="line">$ hexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>Now open <a href="http://localhost:4000/">http://localhost:4000/</a> in your browser, you can see a built-in blog.</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/#more" rel="contents">
-              Read more &raquo;
-            </a>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/" rel="next" title="Building a blog with Github Pages & Hexo on MacOS">
+                <i class="fa fa-chevron-left"></i> Building a blog with Github Pages & Hexo on MacOS
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    <div>
-      
-    </div>
+          <span class="post-nav-divider"></span>
 
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/04/28/Building-your-app-with-React-Framework7/" rel="prev" title="Building your app with React + Framework7">
+                Building your app with React + Framework7 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
           
           </div>
@@ -636,6 +419,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -655,8 +442,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://res.cloudinary.com/alick/image/upload/v1487907760/sx_jbup7z.jpg"
@@ -727,6 +523,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Installation"><span class="nav-number">1.</span> <span class="nav-text">Installation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Vue"><span class="nav-number">1.1.</span> <span class="nav-text">Install Vue</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Start-a-project"><span class="nav-number">1.2.</span> <span class="nav-text">Start a project</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Framework7"><span class="nav-number">1.3.</span> <span class="nav-text">Install Framework7</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Structure"><span class="nav-number">1.4.</span> <span class="nav-text">Project Structure</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Initialize-App"><span class="nav-number">2.</span> <span class="nav-text">Initialize App</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#main-js"><span class="nav-number">2.1.</span> <span class="nav-text">main.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#App-vue"><span class="nav-number">2.2.</span> <span class="nav-text">App.vue</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -839,6 +651,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 

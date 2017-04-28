@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="react,framework7," />
 
 
 
@@ -87,25 +87,22 @@
 
 
 
-<meta name="description" content="InstallationInstall Homebrew1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-Install Node.js1$ brew install node
-Install Git1$ brew install git
-Ins">
+<meta name="description" content="InstallationInstall React1234$ npm install -g create-react-app$ create-react-app react-f7$ cd react-f7$ npm start
+Install Framework71$ npm install framework7-react --save
+InitializationProject Structu">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Building a blog with Github Pages & Hexo on MacOS">
-<meta property="og:url" content="http://alickzhang.com/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/index.html">
+<meta property="og:title" content="Building your app with React + Framework7">
+<meta property="og:url" content="http://alickzhang.com/2017/04/28/Building-your-app-with-React-Framework7/index.html">
 <meta property="og:site_name" content="Alick's Blog">
-<meta property="og:description" content="InstallationInstall Homebrew1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-Install Node.js1$ brew install node
-Install Git1$ brew install git
-Ins">
-<meta property="og:updated_time" content="2017-03-29T03:28:05.000Z">
+<meta property="og:description" content="InstallationInstall React1234$ npm install -g create-react-app$ create-react-app react-f7$ cd react-f7$ npm start
+Install Framework71$ npm install framework7-react --save
+InitializationProject Structu">
+<meta property="og:updated_time" content="2017-04-28T03:24:10.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Building a blog with Github Pages & Hexo on MacOS">
-<meta name="twitter:description" content="InstallationInstall Homebrew1$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-Install Node.js1$ brew install node
-Install Git1$ brew install git
-Ins">
+<meta name="twitter:title" content="Building your app with React + Framework7">
+<meta name="twitter:description" content="InstallationInstall React1234$ npm install -g create-react-app$ create-react-app react-f7$ cd react-f7$ npm start
+Install Framework71$ npm install framework7-react --save
+InitializationProject Structu">
 
 
 
@@ -133,13 +130,13 @@ Ins">
 
 
 
-  <link rel="canonical" href="http://alickzhang.com/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/"/>
+  <link rel="canonical" href="http://alickzhang.com/2017/04/28/Building-your-app-with-React-Framework7/"/>
 
 
 
 
 
-  <title> Building a blog with Github Pages & Hexo on MacOS | Alick's Blog </title>
+  <title> Building your app with React + Framework7 | Alick's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -258,7 +255,7 @@ Ins">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://alickzhang.com/2017/02/24/Building-a-blog-with-Github-Pages-Hexo/">
+    <link itemprop="mainEntityOfPage" href="http://alickzhang.com/2017/04/28/Building-your-app-with-React-Framework7/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Alick Zhang">
@@ -279,7 +276,7 @@ Ins">
             
             
               
-                Building a blog with Github Pages & Hexo on MacOS
+                Building your app with React + Framework7
               
             
           </h1>
@@ -294,8 +291,8 @@ Ins">
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-24T14:51:21+11:00">
-                2017-02-24
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-28T13:11:12+10:00">
+                2017-04-28
               </time>
             
 
@@ -330,24 +327,18 @@ Ins">
       
 
       
-        <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-Homebrew"><a href="#Install-Homebrew" class="headerlink" title="Install Homebrew"></a>Install Homebrew</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ /usr/bin/ruby <span class="_">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></div></pre></td></tr></table></figure>
-<h2 id="Install-Node-js"><a href="#Install-Node-js" class="headerlink" title="Install Node.js"></a>Install Node.js</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install node</div></pre></td></tr></table></figure>
-<h2 id="Install-Git"><a href="#Install-Git" class="headerlink" title="Install Git"></a>Install Git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install git</div></pre></td></tr></table></figure>
-<h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div><div class="line">$ hexo init blog</div><div class="line">$ <span class="built_in">cd</span> blog &amp;&amp; npm install</div><div class="line">$ hexo generate</div><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>Now open <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> in your browser, you can see a built-in blog.</p>
-<a id="more"></a>
-<h2 id="Common-Commands"><a href="#Common-Commands" class="headerlink" title="Common Commands"></a>Common Commands</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ hexo n	<span class="comment"># create a new post or page</span></div><div class="line">$ hexo g	<span class="comment"># generate static files, which are located in the public folder</span></div><div class="line">$ hexo s	<span class="comment"># start the local web server, which is running at http://localhost:4000</span></div><div class="line">$ hexo d	<span class="comment"># deploy the blog to remote end (such as Github)</span></div></pre></td></tr></table></figure>
-<h2 id="Start-a-New-Post"><a href="#Start-a-New-Post" class="headerlink" title="Start a New Post"></a>Start a New Post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"post name"</span> <span class="comment"># create a new post</span></div><div class="line">$ hexo new page <span class="string">"page name"</span> <span class="comment"># create a new page</span></div></pre></td></tr></table></figure>
-<h1 id="Hexo-Theme"><a href="#Hexo-Theme" class="headerlink" title="Hexo Theme"></a>Hexo Theme</h1><h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p>The theme that I used is <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">Next</a>.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">cd</span> blog</div><div class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure>
-<h2 id="Enable"><a href="#Enable" class="headerlink" title="Enable"></a>Enable</h2><p>After cloning, open the _config.yml file under the root directory, find the theme keyword, and change its value to next.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure>
-<p>Now refresh the page <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>, you can see the theme is enabled.</p>
-<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="Hexo-Deploy"><a href="#Hexo-Deploy" class="headerlink" title="Hexo Deploy"></a>Hexo Deploy</h2><p>Edit the _config.yml file. Under the deploy, add your github repository and set the branch to master.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:alickzhang/alickzhang.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
-<p>Then execute the following command.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo d</div></pre></td></tr></table></figure>
-<h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><p><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">hexo你的博客</a><br><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a></p>
+        <h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><h2 id="Install-React"><a href="#Install-React" class="headerlink" title="Install React"></a>Install React</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ npm install -g create-react-app</div><div class="line">$ create-react-app react<span class="_">-f</span>7</div><div class="line">$ <span class="built_in">cd</span> react<span class="_">-f</span>7</div><div class="line">$ npm start</div></pre></td></tr></table></figure>
+<h2 id="Install-Framework7"><a href="#Install-Framework7" class="headerlink" title="Install Framework7"></a>Install Framework7</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install framework7-react --save</div></pre></td></tr></table></figure>
+<h1 id="Initialization"><a href="#Initialization" class="headerlink" title="Initialization"></a>Initialization</h1><h2 id="Project-Structure"><a href="#Project-Structure" class="headerlink" title="Project Structure"></a>Project Structure</h2><ul>
+<li>src/views - folder with views</li>
+<li>src/components - folder with components</li>
+<li>src/css - put custom app CSS styles here. Don’t forget to import them in main.js</li>
+<li>src/common - folder with utility js file, such as request.js, config.js</li>
+<li>src/index.js - main app file where you include/import all required libs and init app</li>
+<li>src/routes.js - app routes</li>
+<li>src/App.js - main app component</li>
+</ul>
+<h2 id="index-js"><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span></div><div class="line"><span class="keyword">import</span> ReactDOM <span class="keyword">from</span> <span class="string">'react-dom'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'framework7/dist/css/framework7.ios.min.css'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'framework7/dist/css/framework7.ios.colors.min.css'</span></div><div class="line"></div><div class="line"><span class="keyword">import</span> &#123; App &#125; <span class="keyword">from</span> <span class="string">'./App'</span></div><div class="line"><span class="keyword">import</span> <span class="string">'./css/App.css'</span></div><div class="line"></div><div class="line">ReactDOM.render(</div><div class="line">  &lt;App /&gt;,</div><div class="line">  document.getElementById('root')</div><div class="line">)</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -369,6 +360,14 @@ Ins">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/react/" rel="tag"># react</a>
+          
+            <a href="/tags/framework7/" rel="tag"># framework7</a>
+          
+        </div>
+      
 
       
         
@@ -378,15 +377,15 @@ Ins">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/" rel="next" title="Building your mobile app with Vue + Framework7">
+                <i class="fa fa-chevron-left"></i> Building your mobile app with Vue + Framework7
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/03/18/Building-your-mobile-app-with-Vue-Framework7/" rel="prev" title="Building your mobile app with Vue + Framework7">
-                Building your mobile app with Vue + Framework7 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -524,7 +523,7 @@ Ins">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Installation"><span class="nav-number">1.</span> <span class="nav-text">Installation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Homebrew"><span class="nav-number">1.1.</span> <span class="nav-text">Install Homebrew</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Node-js"><span class="nav-number">1.2.</span> <span class="nav-text">Install Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Git"><span class="nav-number">1.3.</span> <span class="nav-text">Install Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">1.4.</span> <span class="nav-text">Install Hexo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Common-Commands"><span class="nav-number">1.5.</span> <span class="nav-text">Common Commands</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Start-a-New-Post"><span class="nav-number">1.6.</span> <span class="nav-text">Start a New Post</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-Theme"><span class="nav-number">2.</span> <span class="nav-text">Hexo Theme</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install"><span class="nav-number">2.1.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Enable"><span class="nav-number">2.2.</span> <span class="nav-text">Enable</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git"><span class="nav-number">3.</span> <span class="nav-text">Git</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo-Deploy"><span class="nav-number">3.1.</span> <span class="nav-text">Hexo Deploy</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">Reference</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Installation"><span class="nav-number">1.</span> <span class="nav-text">Installation</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-React"><span class="nav-number">1.1.</span> <span class="nav-text">Install React</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install-Framework7"><span class="nav-number">1.2.</span> <span class="nav-text">Install Framework7</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Initialization"><span class="nav-number">2.</span> <span class="nav-text">Initialization</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Structure"><span class="nav-number">2.1.</span> <span class="nav-text">Project Structure</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#index-js"><span class="nav-number">2.2.</span> <span class="nav-text">index.js</span></a></li></ol></li></ol></div>
             
 
           </div>
